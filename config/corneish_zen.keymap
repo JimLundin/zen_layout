@@ -32,19 +32,19 @@
                 lower_layer {
                         label = "NUMBER";
                         bindings = <
-   &kp ESC     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                 &kp N7   &kp N8   &kp N9  &kp PLUS  &kp N0    &kp BSPC
-   &kp LGUI    &kp RIGHT     &kp LEFT      &kp UP        &kp DOWN      &trans                 &kp N4   &kp N5   &kp N6  &kp MINUS &kp FSLH  &trans
+   &kp ESC     &trans        &trans        &trans        &trans        &trans                 &kp N7   &kp N8   &kp N9  &kp PLUS  &kp N0    &kp BSPC
+   &kp LGUI    &trans        &trans        &trans        &trans        &trans                 &kp N4   &kp N5   &kp N6  &kp MINUS &kp FSLH  &trans
    &kp LSHFT   &trans        &trans        &trans        &trans        &trans                 &kp N1   &kp N2   &kp N3  &kp STAR  &trans    &trans
-                          	               &kp LCTRL     &trans        &kp SPACE              &kp RET  &kp N0   &kp RALT
+                          	               &kp LCTRL     &trans        &kp SPACE              &kp RET  &mo 3    &kp RALT
                         >;
                 };
 
                 raise_layer {
                         label = "SYMBOL";
                         bindings = <
-   &kp ESC     &kp EXCL      &kp AT    &kp LBRC    &kp RBRC   &kp PRCNT     &kp CARET &kp AMPS  &trans    &kp LPAR &kp RPAR  &kp DEL
+   &kp ESC     &kp EXCL      &kp AT    &kp LBRC    &kp RBRC   &kp PRCNT     &kp CARET &kp AMPS  &trans    &trans   &trans    &kp DEL
    &kp LCTRL   &kp FSLH      &kp HASH  &kp LPAR    &kp RPAR   &kp BSLH      &kp MINUS &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT &kp GRAVE
-   &bt BT_CLR  &bt BT_NXT    &trans    &kp LBKT    &kp RBKT   &kp PIPE      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE  &kp TILDE
+   &trans      &kb QMARK     &kp PIPE  &kp LBKT    &kp RBKT   &trans        &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE  &kp TILDE
                     	                 &kp LCTRL   &mo 3      &kp SPACE     &kp RET   &trans    &kp RALT
                         >;
                 };
