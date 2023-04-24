@@ -1,0 +1,133 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  CLMKDH: [ESC, Q, W, F, P, B, J, L, U, Y, ;, BSPC, TAB, A, R, S, T, G, M, N, E, I, O, '''', LSHFT, Z, X, C, D, V, K, H, ',', ., /, LGUI, LCTRL, NUMBER, SPACE, RET,
+    SYMBOL, RALT]
+  NUMBER:
+  - ESC
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - +
+  - '0'
+  - BSPC
+  - LGUI
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - '-'
+  - /
+  - ''
+  - LSHFT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '*'
+  - ''
+  - ''
+  - LCTRL
+  - {type: held}
+  - SPACE
+  - RET
+  - BT
+  - RALT
+  SYMBOL:
+  - ESC
+  - '!'
+  - '@'
+  - '{'
+  - '}'
+  - '%'
+  - ^
+  - '&'
+  - ''
+  - ''
+  - ''
+  - DEL
+  - LCTRL
+  - /
+  - '#'
+  - (
+  - )
+  - \
+  - '-'
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - '`'
+  - ''
+  - '?'
+  - '|'
+  - '['
+  - ']'
+  - ''
+  - _
+  - +
+  - '{'
+  - '}'
+  - '|'
+  - '~'
+  - LCTRL
+  - BT
+  - SPACE
+  - RET
+  - {type: held}
+  - RALT
+  BT:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - BT NXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - {type: held}
+  - ''
