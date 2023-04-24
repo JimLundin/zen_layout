@@ -1,0 +1,20 @@
+on: [push]
+
+jobs:
+  layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install keymap-drawer
+      - name: Run keymap-drawer
+        run: |
+          keymap parse -z ./config/corneish_zen.keymap > corneish_zen.yaml
+          keymap draw corneish_zen.yaml > keymap.svg
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
